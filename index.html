@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sytle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&family=Playfair+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Dining</title>
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <span class="logo">The Dining House</span>
+      <!-- <div class="options"> -->
+      <!-- <h1 class="logo">Ocean Hotel</h1> -->
+      <span class="options">
+        <a href="#" class="labels">Home</a>
+        <a class="labels" id="food-menu">Food Menu</a>
+        <a class="labels" id="drink-menu">Drink Menu</a>
+        <!-- <a  class="labels" id="events">Events</a> -->
+        <a class="labels" id="contact">Contact</a>
+        <a class="labels" id="reservation">Reservation</a>
+      </span>
+      <!-- </div> -->
+    </nav>
+    <img src="food22-.jpg" class="img" alt="image containing dishes" />
+    <div class="intro">
+      <p class="inner-txt">
+        The Dining house contemporary fine-dining facility , specializes in
+        traditional Indian, Italian recipes and Canadian cuisine with a
+        delicious French twist.
+      </p>
+      <p class="inner-txt">
+        Join Us for an amazing dining experience put together by Executive Chefs
+        and team.
+      </p>
+    </div>
+    <div style="display: block" id="alternative"></div>
+    <div class="book-section" id="book-section">
+      <div class="header-1" id="header-1">Make Reservation</div>
+      <div class="container-1">
+        <div>
+          <select name="people" id="person">
+            <option value="2 People">2 People</option>
+            <option value="3 People">3 People</option>
+            <option value="4 People">4 People</option>
+            <option value="5 People">5 People</option>
+            <option value="5 People">5 People</option>
+            <option value="6 People">6 People</option>
+            <option value="7 People">7 People</option>
+            <option value="8 People">8 People</option>
+            <option value="9 People">9 People</option>
+            <option value="10 People">10 People</option>
+            <option value="larger">larger</option>
+          </select>
+        </div>
+        <div>
+          <input
+            type="date"
+            id="date"
+            placeholder="2022-2-2"
+            value=""
+            min="1997-01-01"
+            max="2030-12-31"
+          />
+        </div>
+        <div>
+          <select name="time" id="time">
+            <option value="12:00 AM">12:00 AM</option>
+            <option value="12:30 AM">12:30 AM</option>
+            <option value="1:00 AM">1:00 AM</option>
+            <option value="1:30 AM">1:30 AM</option>
+            <option value="2:00 AM">2:00 AM</option>
+            <option value="2:30 AM">2:30 AM</option>
+            <option value="3:00 AM">3:00 AM</option>
+            <option value="3:30 AM">3:30 AM</option>
+            <option value="4:00 AM">4:00 AM</option>
+            <option value="4:30 AM">4:30 AM</option>
+            <option value="5:00 AM">5:00 AM</option>
+            <option value="6:00 AM">6:00 AM</option>
+            <option value="6:30 AM">6:30 AM</option>
+            <option value="7:00 AM">7:00 AM</option>
+            <option value="7:30 AM">7:30 AM</option>
+            <option value="8:00 AM">8:00 AM</option>
+            <option value="8:30 AM">8:30 AM</option>
+            <option value="9:30 AM">9:30 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="10:30 AM">10:30 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="11:30 AM">11:30 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="12:30 PM">12:30 PM</option>
+            <option value="1:00 PM">1:00 PM</option>
+            <option value="1:30 PM">1:30 PM</option>
+            <option value="2:00 PM">2:00 PM</option>
+            <option value="2:30 PM">2:30 PM</option>
+            <option value="3:00 PM">3:00 PM</option>
+            <option value="3:30 PM">3:30 PM</option>
+            <option value="4:00 PM">4:00 PM</option>
+            <option value="4:30 PM">4:30 PM</option>
+            <option value="5:00 PM">5:00 PM</option>
+            <option value="6:00 PM">6:00 PM</option>
+            <option value="6:30 PM">6:30 PM</option>
+            <option value="7:00 PM">7:00 PM</option>
+            <option value="7:30 PM">7:30 PM</option>
+            <option value="8:00 PM">8:00 PM</option>
+            <option value="8:30 PM">8:30 PM</option>
+            <option value="9:30 PM">9:30 PM</option>
+            <option value="10:00 PM">10:00 PM</option>
+            <option value="10:30 PM">10:30 PM</option>
+            <option value="11:00 PM">11:00 PM</option>
+            <option value="11:30 PM">11:30 PM</option>
+          </select>
+        </div>
+      </div>
+      <button class="reserve-btn">Find Table</button>
+    </div>
+    <div class="food-menu margin1">
+      <!-- <h2 class="header-2">Food Menu</h2> -->
+      <div class="header-3">Starters</div>
+      <div class="menu">
+        <div class="items1">
+          <p class="item">Spring Roll</p>
+          <p class="item">Grilled Chicken</p>
+          <p class="item">Vegetable pizza</p>
+          <p class="item">Chicken wings</p>
+          <p class="item">Quinoa salad</p>
+        </div>
+        <div class="items2">
+          <p class="item">Japaneese Sushi</p>
+          <p class="item">Noodle bowl</p>
+          <p class="item">Chicken Sandwich</p>
+          <p class="item">Cauliflower cutlet</p>
+          <p class="item">Pasta</p>
+        </div>
+        <div class="items3">
+          <div class="slide fade">
+            <img src="burger.jpg" alt="a image containing food item" />
+          </div>
+          <div class="slide fade">
+            <img src="grilled chiken (Custom).jpg" alt="" />
+          </div>
+          <div class="slide fade">
+            <img src="Noodle bowl (Custom).jpg" alt="" />
+          </div>
+          <div class="slide fade">
+            <img src="sushi (Custom).jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu margin2">
+      <div class="header-3">Dinner</div>
+      <div class="menu">
+        <div class="items1">
+          <p class="item">Carbonara Pizza</p>
+          <p class="item">Fjord Salmon</p>
+          <p class="item">Beluga Lentil Cavier</p>
+          <p class="item">Chineese Ramen</p>
+          <p class="item">Spaghetti Rustico</p>
+        </div>
+        <div class="items2">
+          <p class="item">Grilled Radicchio</p>
+          <p class="item">Roasted Organic Chicken</p>
+          <p class="item">Veal Osso Bucco</p>
+          <p class="item">Caesar</p>
+          <p class="item">Chicken Piccata</p>
+        </div>
+        <div class="items3">
+          <div class="slide2 fade">
+            <img src="chikcen sandwitch.jpg" alt="a image" />
+          </div>
+          <div class="slide2 fade">
+            <img src="ramen.jpg" alt="" />
+          </div>
+          <div class="slide2 fade">
+            <img src="pasta.jpg" alt="" />
+          </div>
+          <div class="slide2 fade">
+            <img src="salmon.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="drink-menu margin2">
+      <div class="header-3">Drinks</div>
+      <div class="menu">
+        <div class="items1">
+          <p class="item">Guinness</p>
+          <p class="item">Vines sharp drink</p>
+          <p class="item">Grape Wine</p>
+          <p class="item">Agua Fresca</p>
+          <p class="item">Alcohol Free Red Wine</p>
+        </div>
+        <div class="items2">
+          <p class="item">Jukes 6</p>
+          <p class="item">Everleaf</p>
+          <p class="item">Sentia</p>
+          <p class="item">Gimber</p>
+          <p class="item">Three Spirit Drinks</p>
+        </div>
+        <div class="items3">
+          <div class="slide3 fade">
+            <img src="Grape wine.jpg" alt="a image" />
+          </div>
+          <div class="slide3 fade">
+            <img src="Guinness.jpg" alt="" />
+          </div>
+          <div class="slide3 fade">
+            <img src="fruit juice.jpg" alt="" />
+          </div>
+          <div class="slide3 fade">
+            <img src="Opia Alcohol-Free Chardonnay.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-section">
+      <img src="end3.jpg" alt="" />
+      <div class="header-4">Contact Us</div>
+      <div class="contact-info">
+        <div class="info-sections">
+          <div>
+            <h3>Location</h3>
+            <p>190 Road Ng1234</p>
+            <p>kerala, India</p>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <p>24/7 Everyday</p>
+            <p>Reservations till 8:00 PM</p>
+          </div>
+          <div>
+            <h3>Contact Us</h3>
+            <p>Mobile:(+91) 930-021-200</p>
+            <p>thedininghouse@gmail.com</p>
+          </div>
+        </div>
+        <!-- <div class="icons">
+          <div>
+          <a href="https://facebook.com">
+            <svg
+              
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <a href="https://twitter.com"
+            ><svg
+              class="twitter"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              />
+            </svg>
+          </a>
+        </div>-->
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
